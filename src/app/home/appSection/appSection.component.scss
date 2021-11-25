@@ -1,0 +1,17 @@
+@import '../home.component.scss';
+.img-section {
+    background: url('~src/assets/images/sn1-bg.png') no-repeat; 
+    background-size: cover;
+}
+.app-img-left {
+    margin-left: 10%;
+}
+.app-img-right {
+    margin-right : 10%;
+}
+@media screen and (max-width: 600px) {
+    .app-img-left,
+    .app-img-right {
+        margin : 0
+    }
+}

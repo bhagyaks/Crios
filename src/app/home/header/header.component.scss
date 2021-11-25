@@ -1,0 +1,26 @@
+@import "../home.component.scss";
+.column {
+    float: left;
+    width: 25%;
+  }
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .button-margin {
+      margin-left: 20%;
+    }
+}
+  .header-image {
+    background: url('~src/assets/images/landing-bg.png') no-repeat center; 
+    background-size: cover;
+    height: 800px;
+    position: relative;
+  }
+  
+  .header-text {
+    top: 10%;
+    text-align: center;
+    position: absolute;
+    // transform: translate(-50%, -50%);
+  }
