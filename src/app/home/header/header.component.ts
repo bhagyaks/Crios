@@ -13,19 +13,19 @@ export class HeaderComponent implements OnInit{
             {
                 icon: '../../assets/images/c1.png',
                 header: 'Lorem ipsum dolor sit amet',
-                subheader: 'Suspendisse vel leo efficitur,venenatis est ut, tincidunt nibh.',
+                subheader: 'Suspendisse vel leo efficitur,',
                 subheader1: 'venenatis est ut, tincidunt nibh.',
             },
             {
                 icon: '../../assets/images/c2.png',
                 header: 'Lorem ipsum dolor sit amet',
-                subheader: 'Suspendisse vel leo efficitur,venenatis est ut, tincidunt nibh.',
+                subheader: 'Suspendisse vel leo efficitur,',
                 subheader1: 'venenatis est ut, tincidunt nibh.',
             },
             {
                 icon: '../../assets/images/c3.png',
                 header: 'Lorem ipsum dolor sit amet',
-                subheader: 'Suspendisse vel leo efficitur,venenatis est ut, tincidunt nibh.',
+                subheader: 'Suspendisse vel leo efficitur,',
                 subheader1: 'venenatis est ut, tincidunt nibh.',
             },
             {

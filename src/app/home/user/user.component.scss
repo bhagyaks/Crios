@@ -2,4 +2,13 @@
 .user-img {
     float: left;
     margin-left: 10%;
+    max-width: 100%;
+}
+.user-p {
+    font-size: 10px;
+    font-weight: 300px;
+}
+.img-section {
+    background: url('~src/assets/images/sn1-bg.png') no-repeat; 
+    background-size: cover;
 }

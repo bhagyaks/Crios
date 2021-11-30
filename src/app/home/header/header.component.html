@@ -1,25 +1,28 @@
 <!-- header -->
-<div class="header-image">
+<div class="container">
     <div class="header-text">
-      <h1 class="font-weight">Simple PSD template with cool stuff</h1>
+      <h1 class="font-weight margin-top-30">Simple PSD template with cool stuff</h1>
       <h6 class="font-weight margin-top-10">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h6>
       <br>
       <button>EXPLORE TEMPLATE</button>
     </div>
 </div>
+<div class="margin-top-10">
+        <img src="../../assets/images/landing-bg.png" class="landing"> 
+</div>
 <div>
-    <!-- <img src="../../assets/images/landing-bg.png" class="landing"> -->
-    <div class="row">
-        <div *ngFor="let item of headerIcon" class="column">
+    <div class=" container header-text">
+        <h6 class="font-weight">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h6>
+        <h1 class="font-weight margin-top-10">Lorem ipsum dolor sit amet</h1>
+        <div *ngFor="let item of headerIcon" class="column margin-top-30">
             <img class="img" src="{{item.icon}}">
-            <h3 class="center font-weight margin-top-10">{{item.header}}</h3>
+            <h3 class="font-weight margin-top-10">{{item.header}}</h3>
             <br>
-            <h6 class="center font-weight">{{item.subheader}}</h6>
-            <br>
-            <h6 class="center font-weight">{{item.subheader1}}</h6>
-        </div>
-        <div>
-        <button class="button margin-top-30 button-margin">CHECK OUR OFFER</button>
+            <h6 class="font-weight">{{item.subheader}}
+            <br>{{item.subheader1}}</h6>
         </div>
     </div>
+</div>
+<div>
+<button class="margin-top-30 button-margin">CHECK OUR OFFER</button>
 </div>
