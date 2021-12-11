@@ -1,3 +1,4 @@
+
 # Crios
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
@@ -12,6 +13,12 @@ No jquery, bootstarp or 3rd party library used.
 ● Html
 
 ● scss
+
+# Demo
+
+
+https://user-images.githubusercontent.com/88626686/145687897-f40576bb-d8dc-492a-bcca-693ec1618e7e.mp4
+
 
 ## Development server
 
