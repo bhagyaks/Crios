@@ -1,6 +1,17 @@
 # Crios
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.# Details
+Each section from header to footer is a seperate component using lazy loading.
+No jquery, bootstarp or 3rd party library used.
+
+# Tech Stack
+● Angular
+
+● Typescript
+
+● Html
+
+● scss
 
 ## Development server
 
